@@ -33,3 +33,7 @@
  - Rename recursively part of multiples files in a directory
  
 `find /your/target/path/ -type f -exec rename 's/special/regular/' '{}' \;`
+
+ - Git push tag
+
+` git push origin <tag-name>`
