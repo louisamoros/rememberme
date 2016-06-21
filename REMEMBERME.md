@@ -27,4 +27,5 @@
 `docker load -i my-image.tar`
 
  - Docker create tag from image
- docker save -o my-image.tar my-image:latest
+ 
+ `docker save -o my-image.tar my-image:latest`
