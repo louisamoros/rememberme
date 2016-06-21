@@ -29,3 +29,7 @@
  - Docker create tag from image
  
  `docker save -o my-image.tar my-image:latest`
+
+ - Rename recursively part of multiples files in a directory
+ 
+`find /your/target/path/ -type f -exec rename 's/special/regular/' '{}' \;`
