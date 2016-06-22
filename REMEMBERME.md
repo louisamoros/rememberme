@@ -37,3 +37,8 @@
  - Git push tag
 
 ` git push origin <tag-name>`
+
+ - Git remove tag (local/remote)
+
+`git tag -d release01` : local
+`git push origin :refs/tags/release01` : remote
