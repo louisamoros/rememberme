@@ -28,11 +28,11 @@
 
  - Docker create tag from image
  
- `docker save -o my-image.tar my-image:latest`
+`docker save -o my-image.tar my-image:latest`
 
  - Ubuntu ppa list
 
- `cd /etc/apt/sources.list.d/`
+`cd /etc/apt/sources.list.d/`
 
  - Rename recursively part of multiples files in a directory
  
