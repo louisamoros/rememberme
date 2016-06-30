@@ -1,3 +1,7 @@
+ - Ubunutu version
+
+`lsb_release -a`
+
  - Find all files and sufolders from current directory based on regex and !regex
 
 `find . -ipath "*something*" ! -ipath "*target*"`
