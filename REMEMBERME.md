@@ -30,6 +30,10 @@
  
  `docker save -o my-image.tar my-image:latest`
 
+ - Ubuntu ppa list
+
+ `cd /etc/apt/sources.list.d/`
+
  - Rename recursively part of multiples files in a directory
  
 `find /your/target/path/ -type f -exec rename 's/special/regular/' '{}' \;`
