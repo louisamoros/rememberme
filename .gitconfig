@@ -1,0 +1,14 @@
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+        tree = log --abbrev-commit --pretty=oneline --graph --decorate --all
+        last = log -1 HEAD
+[user]
+        email = email@email.com
+        name = Louis Amoros
+[core]
+        editor = vim
+[push]
+        default = simple
