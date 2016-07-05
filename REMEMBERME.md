@@ -1,3 +1,7 @@
+ - Copy ssh pub to remote
+
+`ssh-copy-id user@123.45.56.78`
+
  - Ubunutu version
 
 `lsb_release -a`
