@@ -60,8 +60,8 @@
 
 `shuf -i MIN-MAX -n COUNT`
 
- - getting a random base64 string :
+ - getting a random base64 string
 
 `date +%s | sha256sum | base64 | head -c LENGTH`
-# or
+
 `openssl rand -base64 LENGTH`
