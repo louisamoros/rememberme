@@ -65,3 +65,7 @@
 `date +%s | sha256sum | base64 | head -c LENGTH`
 
 `openssl rand -base64 LENGTH`
+
+ - logout a user
+
+`pkill -KILL -u username`
