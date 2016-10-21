@@ -69,3 +69,10 @@
  - logout a user
 
 `pkill -KILL -u username`
+
+ - number of cores
+
+`cat /proc/cpuinfo | grep processor | wc -l`
+
+
+
