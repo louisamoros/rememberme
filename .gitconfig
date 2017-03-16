@@ -12,3 +12,13 @@
         editor = vim
 [push]
         default = simple
+[http]
+        proxy = http://<username>:<password>@<proxy>:<proxy-port>
+[https]
+        proxy = https://<username>:<password>@<proxy>:<proxy-port>
+[github]
+        token = <token>
+[remote "github.com"]
+        proxy = //TO BYPASS PROXY
+[credential]
+        helper = cache --timeout=3600
