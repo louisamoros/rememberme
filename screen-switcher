@@ -1,0 +1,6 @@
+1 - Install CompizConfig Settings Manager Install compizconfig-settings-manager
+    `sudo apt-get install compizconfig-settings-manager`
+2 - Run CCSM → Go to bottom (Window Management) → Go to "Put."
+3 - Enable the plugin.
+4 - Configure shortcut for "Put to next Output."
+5 - Log out and back in again.
