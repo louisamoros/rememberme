@@ -84,3 +84,7 @@
 
 `pdftk file1.pdf file2.pdf cat output mergedfile.pdf`
 
+ - create public/private key
+ 
+`openssl genrsa -out mykey.pem 1024 && openssl rsa -in mykey.pem -pubout > mykey.pub`
+
