@@ -88,3 +88,7 @@
  
 `openssl genrsa -out mykey.pem 1024 && openssl rsa -in mykey.pem -pubout > mykey.pub`
 
+ - create alias ifconfig
+
+`alias ifconfig=ip -s -c -h a`
+
