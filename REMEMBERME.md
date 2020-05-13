@@ -1,3 +1,7 @@
+ - Update Intellij project (magic command)
+
+`mvn idea:clean idea:idea`
+
  - Copy ssh pub to remote
 
 `ssh-copy-id user@123.45.56.78`
