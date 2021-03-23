@@ -1,4 +1,12 @@
- - Update Intellij project (magic command)
+- Delete all remote branches already merged
+
+`git branch -r --merged | grep -v '\*\|master\|trunk\|release' | sed 's/origin\///' | xargs -n 1 git push --delete origin`
+
+- Delete all local branches already merged
+
+`git branch --merged | egrep -v "(^\*|master|trunk|release)" | xargs git branch -d`
+
+- Update Intellij project (magic command)
 
 `mvn idea:clean idea:idea`
 
